@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Protofile YA Z AN</title>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="Style.css">
+</head>
+<body>
+
+<!----listMenu---->
+<header>
+	<div class="user">
+		<img src="_MG_0213.jpg">
+		<h3 class="name">Y A Z A N</h3>
+		<p class="post">Fornt End Developer And PhotoGrapher</p>
+	</div>
+
+	<nav class="navbar">
+		<ul>
+			<li><a href="#home">Home</a></li>
+			<li><a href="#about">About</a></li>
+			<li><a href="#Protofile">MyGallery</a></li>
+			<li><a href="#contact">Contact</a></li>
+		</ul>
+	</nav>
+</header>
+<!-----End listMenu------>
+
+<!-------menu-------->
+<div id="menu" class="fas fa-bars"></div>
+<!----End Menu---->
+
+<!---------Home---------->
+<section class="home" id="home">
+	<h3>HI THERE !</h3>
+	<h1>I'M <span>   YAZAN</span></h1>
+	<p>Graduated from the Institute of Computer Technology , My hobby is photography and I aspire to be the best in everything . Looking for a job where I can improve my best in programming.</p>
+	<a href="#about"><button class="btn">about me<i class="fas fa-user"></i></button></a>
+</section>
+<!----------Home End---------->
+
+<!-------About------>
+<section class="about" id="about">
+ <h1 class="heading"><span>About</span> Me</h1>
+	<div class="row">
+		<div class="info">
+			<h3><span> Name:</span> Mohamed YAZAN Sabsabi</h3>
+			<h3><span> Age:</span> 20</h3>
+			<h3><span> Post:</span> Fornt End Developer - PhotoGrapher - programmer</h3>
+			<h3><span> Languages:</span> Arabic - English</h3>
+			<h3><span> My Hobbies:</span> Football - Swimming - Photography - Reading - Bike riding</h3>
+			<h3><span> Academic Education:</span> Graduated from the Computer Technical Institute in Damascus</h3>
+			<h3><span> MySkills:</span> ----></h3>
+			<a href="https://drive.google.com/file/d/1VEsQlEhnVazFxhbNNgWmHBAha4pI65C5/view?usp=drivesdk"><button class="btn">Download CV<i class="fas fa-download"></i></button></a>
+		</div>
+
+		<div class="counter">
+
+			<div class="box">
+			 <span>80%</span>
+			 <h3>MicroSoft</h3>	
+			</div>
+
+			<div class="box">
+			 <span>80%</span>
+			 <h3>Fornt End</h3>	
+			</div>
+
+			<div class="box">
+			 <span>80%</span>
+			 <h3>communication skills</h3>	
+			</div>
+
+			<div class="box">
+			 <span>80%</span>
+			 <h3>photoshop</h3>	
+			</div>
+
+			<div class="box">
+			 <span>75%</span>
+			 <h3>Decision making</h3>	
+			</div>
+
+			<div class="box">
+			 <span>75%</span>
+			 <h3>Solve SQL and C# Problems</h3>	
+			</div>
+		</div>
+	</div>
+</section>
+<!--------About End---------->
+
+<!----Portofile--------->
+<section class="Protofile" id="Protofile">
+	 <h1 class="heading">My <span> Gallery</span> </h1>
+
+    <div class="box-container">
+
+	<div class="box">
+	 	<img src=".\ملف التصوير\مجلد جديد\IMG_94390.jpg">
+	</div>
+
+	<div class="box">
+	 	<img src=".\ملف التصوير\مجلد جديد\IMG_95590.jpg">
+	</div>
+
+	<div class="box">
+	 	<img src=".\ملف التصوير\مجلد جديد\IMG_9638.jpg">
+	</div>
+
+	<div class="box">
+	 	<img src=".\ملف التصوير\العيد\_MG_0228.jpg">
+	</div>
+
+	<div class="box">
+	 	<img src=".\ملف التصوير\مجلد جديد\IMG_0491.jpg">
+	</div>
+
+	<div class="box">
+	 	<img src=".\ملف التصوير\العيد\IMG_0347.jpg">
+	</div>
+
+	<div class="box">
+	 	<img src=".\ملف التصوير\مجلد جديد\IMG_93090.jpg">
+	</div>
+
+	<div class="box">
+	 	<img src=".\ملف التصوير\مجلد جديد\IMG_9683.jpg">
+	</div>
+	<a href="MyGallery.html"><button class="btn">More</button></a>
+    </div>
+</section>
+<!------Portofile End------->
+
+<!--------contact--------->
+<section class="contact" id="contact">
+	<h1 class="heading">My <span> Contact</span></h1>
+	<div class="row">
+		<div class="content">
+			<h3 class="title">contact info</h3>
+			<div class="info">
+				<h3><i class="fas fa-envelope"></i>yazansabsabee@gmail.com</h3>
+				<h3><i class="fas fa-phone"></i>+963 36920955</h3>
+				<h3><i class="fas fa-user"></i>Single</h3>
+				<h3><i class="fas fa-map-marker-alt"></i>Syria - Damascus - Madin</h3>
+				<h3><i class="fab fa-facebook"></i>YA Z AN</h3>
+			</div>
+		</div>
+		<form onsubmit="sendEmail(); reset();"> 
+			<input type="text" id="name" class="box" placeholder="name" required>
+			<input type="email" id="email"  class="box" placeholder="emil" required>
+			<input type="text" id="phone" class="box" placeholder="phone">
+			<textarea name="" class="box message" rows="10" cols="30" placeholder="message"></textarea>
+			<a href=""><button class="btn" type="Submit">Send<i class="fas fa-paper-plane"></i></button></a>
+		</form>		
+	</div>
+</section>
+
+<!---------End Contact-------->
+
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script type="text/javascript" src="Script.js"></script>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script>
+	function sendEmail(){
+	Email.send({
+    Host : "smtp.gmail.com",
+    Username : "yazansabsabee.com",
+    Password : "YAZAN8835202YAZAN",
+    To : 'yazansabsabee@gmail.com',
+    From : document.getElementById("email").value,
+    Subject : "New Contect From Enquiry",
+    Body : "And this is the body"
+}).then(
+  message => alert(message)
+);
+}
+</script>
+</body>
+</html>
